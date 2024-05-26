@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Simple JSP Application</title>
+    </head>
+    <body bgcolor="lightgreen">
+        <h2 align="center" style="size:10pt;color:red">Simple JSP Application</h2>
+        <hr color="green"><hr color="green"><br>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="reg.html">User Registration</a>&nbsp;&nbsp;&nbsp;
+        <a href="userlogin.html">User Login</a>&nbsp;&nbsp;&nbsp;
+        <a href="adminlogin.html">Admin</a>
+        <br><br>
+  <h3 align="center"><u>Admin Login</u></h3><br>
+  <form method="post" action="checkadminlogin.jsp">
+      
+      <table align="center" width="40%" height="15%">
+      
+         
+          <tr>
+              <td><b>Enter Admin ID</b></td>
+              <td><input type="text" name="aid" required></td>
+          </tr>
+           <tr>
+              <td><b>Enter Password</b></td>
+              <td><input type="password" name="pwd" required></td>
+          </tr>
+            <tr>
+              <td align="center"><input type="submit" value="Login"></td>
+              <td align="center"><input type="reset" value="Clear"></td>
+          </tr>
+      </table>
+      
+  </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Simple JSP Application</title>
+    </head>
+    <body bgcolor="lightgreen">
+        <h2 align="center" style="size:10pt;color:red">Simple JSP Application</h2>
+        <hr color="green"><hr color="green"><br>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="reg.html">User Registration</a>&nbsp;&nbsp;&nbsp;
+        <a href="userlogin.html">User Login</a>&nbsp;&nbsp;&nbsp;
+       <a href="adminlogin.html">Admin</a>
+        <br><br>
+  <h3 align="center"><u>User Registration</u></h3><br>
+  <form method="post" action="reg1.jsp">
+      
+      <table align="center" width="50%" height="25%">
+     
+          <tr>
+              <td><b>Enter Full Name</b></td>
+              <td><input type="text" name="fname" required></td>
+          </tr>
+           <tr>
+              <td><b>Select Gender</b></td>
+              <td><input type="radio" name="gender" value="M" required>Male&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="F" required>Female</td>
+          </tr>
+          <tr>
+              <td><b>Enter Username</b></td>
+              <td><input type="text" name="uname" required></td>
+          </tr>
+           <tr>
+              <td><b>Enter Password</b></td>
+              <td><input type="password" name="pwd" required></td>
+          </tr>
+           <tr>
+              <td><b>Enter Email Address</b></td>
+              <td><input type="email" name="email" required></td>
+          </tr>
+            <tr>
+              <td><b>Enter Mobile No</b></td>
+              <td><input type="number" name="mobile" required></td>
+          </tr>
+          <tr>
+              <td><b>Enter Address</b></td>
+              <td><textarea name="address"></textarea></td>
+          </tr>
+          <tr>
+              <td align="center"><input type="submit" value="Register"></td>
+              <td align="center"><input type="reset" value="Clear"></td>
+          </tr>
+          
+      </table>
+      
+  </form>
+  
+    </body>
+</html>
